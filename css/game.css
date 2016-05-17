@@ -1,0 +1,119 @@
+body, section, div, p, ul, li, span, label {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.pane {
+
+    margin: 100px auto;
+}
+
+.gamblingBox {
+    width: 306px;
+    height: 405px;
+    /*perspective-origin: 75% 75%;*/
+    margin: 0 auto;
+}
+
+.gamblingBox li {
+    width: 34px;
+    height:45px;
+    line-height: 45px;
+    float: left;
+    text-align: center;
+    background-color: #c7ddef;
+}
+
+
+li.active {
+    background-color: #e6f01a;
+}
+
+
+.topLine {
+    display: block;
+    width: 306px;
+}
+
+.topLine li {
+    display: inline-block;
+
+}
+
+.rightLine {
+    float: right;
+    width: 34px;
+}
+
+.leftLin {
+    float: left;
+    width: 34px;
+}
+
+.bottomLine {
+    display: block;
+    clear: both;
+    width: 306px;
+}
+
+.bottomLine li {
+    display: inline-block;
+
+}
+
+/*.gamblingBox li {*/
+/*float: left;*/
+/*width: 35px;*/
+/*height: 27px;*/
+/*font-size: 16px;*/
+/*margin-right: 7px;*/
+/*}*/
+
+.numBox {
+    transform-style: preserve-3d;
+}
+
+.numBox li {
+    position: absolute;
+}
+
+.numBox li:nth-child(1) {
+    background-color: #b9def0;
+    transform: rotate3d(1, 0, 0, 0deg) translateZ(33px);
+}
+
+.numBox li:nth-child(2) {
+    background-color: #f0c5d0;
+    transform: rotate3d(1, 0, 0, 45deg) translateZ(33px);
+}
+
+.numBox li:nth-child(3) {
+    background-color: #f08484;
+    transform: rotate3d(1, 0, 0, 90deg) translateZ(33px);
+}
+
+.numBox li:nth-child(4) {
+    background-color: #f0565e;
+    transform: rotate3d(1, 0, 0, 135deg) translateZ(33px);
+}
+
+.numBox li:nth-child(5) {
+    background-color: #7176f0;
+    transform: rotate3d(1, 0, 0, 180deg) translateZ(33px);
+}
+
+.numBox li:nth-child(6) {
+    background-color: #8cf088;
+    transform: rotate3d(1, 0, 0, 225deg) translateZ(33px);
+}
+
+.numBox li:nth-child(7) {
+    background-color: #e6f01a;
+    transform: rotate3d(1, 0, 0, 270deg) translateZ(33px);
+}
+
+.numBox li:nth-child(8) {
+    background-color: #f0070d;
+    transform: rotate3d(1, 0, 0, 315deg) translateZ(33px);
+}
